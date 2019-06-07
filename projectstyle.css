@@ -1,3 +1,18 @@
+#navbar {
+  overflow: hidden;
+  background-color: #333;
+}
+
+
+#navbar a {
+  float: left;
+  display: block;
+  color: #b4506e;
+  text-align: center;
+  padding: 16px;
+  text-decoration: none;
+}
+
 
 h1{
     color: white
