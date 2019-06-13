@@ -1,16 +1,11 @@
 /* Style the header */
-.header {
-  padding: 10px 16px;
-  background:[orchid];
-  color:blueviolet;
-}
 
 #navbar {
   overflow: hidden;
   background-color: #333;
 }
 
-
+/*navbar style to use color and overline */
 #navbar a {
   float: left;
   display: block;
@@ -24,7 +19,7 @@
   padding: 16px;
 }
 
-
+/*fixes position of navbar */
 .sticky {
   position: fixed;
   top: 0;
@@ -52,3 +47,56 @@
 .sticky + .content {
   padding-top: 102px;
 }
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  max-width: 300px;
+  margin: auto;
+  text-align: center;
+  font-family: Verdana;
+}
+.title {
+  color:pink;
+  font-size: 20px;
+}
+
+button {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 8px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+  font-size: 18px;
+}
+
+a {
+  text-decoration: none;
+  font-size: 22px;
+  color: black;
+}
+
+button:hover, a:hover {
+  opacity: 0.7;
+}
+* {box-sizing:border-box}
+
+/* Container for skill bars */
+.container {
+  width: 100%; /* Full width */
+  background-color: #ddd; /* Grey background */
+}
+
+.skills {
+  text-align: right; /* Right-align text */
+  padding-top: 20px; /* Add top padding */
+  padding-bottom: 10px; /* Add bottom padding */
+  color: black; /* White text color */
+}
+
+.mydegree {width: 90%; background-color:greenyellow;} 
+.communication {width: 80%; background-color: #2196F3;} 
+.jsskills {width: 15%; background-color: brown;}
+.wastingtime {width: 70%; background-color: palevioletred;} 
